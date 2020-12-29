@@ -1,10 +1,10 @@
-## Welcome to Bettina Sosa SIOT project
+### Imperial College London
+### Dyson School of Design Engineering
+## Sensing & IoT
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### **Project Objectives**
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This project is pulling data from several APIs and creating data analysis. Below is a small visualisation.
 
 ```markdown
 Syntax highlighted code block
