@@ -2,7 +2,7 @@
 SIOT project site
 find the project at https://bettinasosa.github.io/SIOT/
 
-#Technologies
+# Technologies
 
 Using Mongodb to store data from Spotify, Openweather and Rpi
 
