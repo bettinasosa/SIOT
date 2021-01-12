@@ -17,11 +17,26 @@ h2 {
   color: rgb(255, 255, 255);
   margin: 10pt 0;
 }
+h3 {
+  font-size: 12pt;
+  font-weight: 400;
+  color: rgb(96, 94, 243);
+  margin: 10pt 0;
+}
 p {
   color: rgb(255, 255, 255);
 }
 a {
   color: rgb(255, 255, 255);
+}
+ul {
+  color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(96, 94, 243);
 }
 .grid1 {
   display: grid;
@@ -109,8 +124,8 @@ a {
 }
 
 .portfolio-link:hover {
-  background-color: #0077b5;
-  color: #fff;
+  background-color: rgb(197, 197, 197);
+  color: rgb(67, 82, 218);
 }
 
 .repo-link {
@@ -124,8 +139,8 @@ a {
 }
 
 .repo-link:hover {
-  background-color: rgb(34, 82, 185);
-  color: #fff;
+  background-color: rgb(197, 197, 197);
+  color: rgb(67, 82, 218);
 }
 
 .image {
