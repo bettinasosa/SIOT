@@ -85,12 +85,6 @@ a {
   margin-bottom: 5pt;
 }
 
-#chart-tip {
-  font-size: 8pt;
-  font-weight: 700;
-  color: #f7f7f7;
-}
-
 #forex {
   grid-column-start: 2;
   grid-column-end: 3;
