@@ -41,8 +41,12 @@
         <div class="grid1">
             <h2>Project Objectives</h2>
             <div class="brief">
-                <p>This project is a small data collection and visualisation challenge . Firstly, below you will see data sets
-                    for localised weather from Earls Courts London retrieved via the 
+                <p>This project is a small data collection, visualisation and actuation challenge. It integrated hardaware (using a RPI 3B + with and RC522 sensor and NTAG213) 
+                    and a Deep learning model to predict and recommend music depending on the users clothing style or 'mood'.
+                    
+                    The ml algorithm uses the songs listened by the user in the past month to make a prediction of what it might want 
+                    to listen when an item of clothing is scanned. Each item has a selected 'mood' which was found through data analysis from the users trends.</p>
+                    <p>Firstly, below you will see data sets for localised weather from Earls Courts London retrieved via the
                     <a href="https://openweathermap.org/current" target="_blank">Open weather API</a>, 
                     for the music I listen to every hour on Spotify using the <a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify API</a> 
                     and finally a collection of clothing items I have worn in the past weeks using a raspberry pi an RC522 sensor and NTAG213 tags.</p>
@@ -70,11 +74,16 @@
        <iframe style="background: #21313C;border: none;margin-bottom: 3%;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="100%" height="800" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=81d29648-c437-411e-9fda-db0eec7d033a&autoRefresh=3600&theme=dark"></iframe>
        <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="49.5%" height="480" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=4745728f-b44f-41f4-b8e2-b7e5821b2426&theme=dark"></iframe>
        <div id="correlation" style="width:100%; height:100px;"></div>
-       <h2>Data Trends</h2>
-       <iframe style="background: #21313C;border: none;margin-right: 1%;margin-top: 3%;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="30%" height="400" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=c5e281fd-d870-460f-8dd3-e0e43648e169&autoRefresh=3600&theme=dark"></iframe>
+       <h2>Data Overview</h2>
+       <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="27%" height="200" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=59e29d34-c195-46c6-a0c5-716c6f0e01e4&autoRefresh=3600&theme=dark"></iframe>
+       <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="20%" height="200" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=09c2fbcf-4ffa-4766-95e4-750403a4f16a&autoRefresh=3600&theme=dark"></iframe>
+       <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="20%" height="200" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=07867fc2-6f5c-410e-80cc-693459a071b7&autoRefresh=3600&theme=dark"></iframe>
+       <iframe style="background: #21313C;border: none;margin-right: 1%;margin-top: 3%;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="30%" height="200" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=c5e281fd-d870-460f-8dd3-e0e43648e169&autoRefresh=3600&theme=dark"></iframe>
+       <div id="trends" style="width:100%; height:50px;"></div>
        <iframe style="background: #21313C;border: none;margin-top: 3%;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="68%" height="400" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=b4ef166d-3942-4ee7-9c54-30ee611dfee8&autoRefresh=3600&theme=dark"></iframe>
        <div id="trends" style="width:100%; height:100px;"></div>
 
+       
         <h2>Data Correlation</h2>
         <iframe style="background: #21313C;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-bgega/embed/charts?id=0b6668d3-e3cc-4b9d-83fc-9210a9289d0e&autoRefresh=3600&theme=dark"></iframe>
         <div id="correlation" style="width:100%; height:100px;"></div>
